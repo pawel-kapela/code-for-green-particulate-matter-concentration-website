@@ -21,6 +21,8 @@
     </head>
 
     <body>
+        <noscript>JavaScript musi być włączony, aby uruchomić tę aplikację. / You need to enable JavaScript to run this app.</noscript>
+
         <div id="app"></div>
     </body>
 </html>
