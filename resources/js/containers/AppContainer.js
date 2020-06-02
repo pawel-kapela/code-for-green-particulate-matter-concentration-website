@@ -11,9 +11,11 @@ const AppContainer = props => {
 
 const mapStateToProps = state => {
     const { theme } = state.theme;
+    const { language } = state.language;
 
     return {
-        theme
+        theme,
+        language
     };
 }
 
