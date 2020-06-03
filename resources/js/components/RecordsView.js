@@ -11,7 +11,7 @@ import Error from './Error';
 import { darkTheme } from '../constants/Themes';
 import localisations from '../constants/Localisations';
 
-function RecordsView({data, error, theme}) {
+function RecordsView({data, error, theme, language}) {
     let day;
     
     return (
@@ -61,8 +61,9 @@ function RecordsView({data, error, theme}) {
 const mapStateToProps = state => {
     const { data, error } = state.data;
     const { theme } = state.theme;
+    const { language } = state.language;
 
-    return { data, error, theme };
+    return { data, error, theme, language };
 }
 
 export default connect(mapStateToProps, {})(RecordsView);

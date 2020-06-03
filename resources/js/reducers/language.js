@@ -3,7 +3,7 @@ import * as types from '../constants/ActionTypes';
 import localisations from '../constants/Localisations';
 
 const initialState = {
-    language: 'pl',
+    language: 'pl'
 };
 
 const language = (state = initialState, action) => {

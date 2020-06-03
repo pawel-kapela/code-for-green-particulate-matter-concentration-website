@@ -42,6 +42,7 @@ class DataControls extends Component {
     render() {
         const { color } = this.props.theme;
         const { datePointer, timespan } = this.props;
+        const { language } = this.props;
 
         const rangeEnd = (timespan == 1) ? moment(datePointer) : moment(datePointer).add(timespan, 'd');
 
@@ -57,11 +58,11 @@ class DataControls extends Component {
                     <div className='d-flex pb-3'>
                         <div className='d-flex flex-column align-items-center'>
                             <label>{localisations.start}</label>
-                            <DatePicker selected={datePointer} maxDate={(timespan == 1) ? moment().startOf('d').toDate() : moment().startOf('d').subtract(timespan, 'd').toDate()} onChange={(date, event) => this.props.setDatePointer(date)}/>
+                            <DatePicker selected={datePointer} dateFormat='dd/MM/yyyy' maxDate={(timespan == 1) ? moment().startOf('d').toDate() : moment().startOf('d').subtract(timespan, 'd').toDate()} onChange={(date, event) => this.props.setDatePointer(date)}/>
                         </div>
                         <div className='d-flex flex-column align-items-center'>
                             <label>{localisations.end}</label>
-                            <DatePicker selected={rangeEnd.toDate()} disabled/>
+                            <DatePicker selected={rangeEnd.toDate()} dateFormat='dd/MM/yyyy' disabled/>
                         </div>
                     </div>
 
@@ -100,8 +101,9 @@ class DataControls extends Component {
 const mapStateToProps = state => {
     const { theme } = state.theme;
     const { datePointer, timespan } = state.data;
+    const { language } = state.language;
 
-    return { theme, datePointer, timespan };
+    return { theme, datePointer, timespan, language };
 }
 
 export default connect(mapStateToProps, { setDatePointer, setTimespan, switchToTheNextTimespan, switchToThePreviousTimespan, fetch })(DataControls);

@@ -1,9 +1,10 @@
 import { createStore, applyMiddleware, compose } from 'redux';
-import  thunk from 'redux-thunk';
+import thunk from 'redux-thunk';
 
 import rootReducer from '../reducers/index';
 
 import { loadState, saveState } from '../helpers/localStorage';
+import localisations from '../constants/Localisations';
 
 const initialState = {};
 const middleware = [thunk];
@@ -17,6 +18,10 @@ const store = createStore(
     persistedState,
     composeEnhancers(applyMiddleware(...middleware))
 );
+
+if (persistedState) {
+    localisations.setLanguage(persistedState.language.language);
+}
 
 store.subscribe(() => {
     saveState({

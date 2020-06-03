@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 import Header from './Header';
 import Sidebar from './Sidebar';
@@ -52,4 +53,10 @@ class Root extends Component {
     }
 }
 
-export default Root;
+const mapStateToProps = state => {
+    const { language } = state.language;
+
+    return { language };
+};
+
+export default connect(mapStateToProps, {})(Root);
