@@ -14,6 +14,8 @@ import localisations from '../constants/Localisations';
 function RecordsView({data, error, theme, language}) {
     let day;
     
+    moment.locale(language);
+
     return (
         <div>
             <DataControls/>
