@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('all_measurements', 'MeasurementsController@index');
-Route::get('measurements_from_timespan', 'MeasurementsController@show');
 Route::get('/{path?}', [
     'uses' => 'MainController@show',
     'as' => 'react',
