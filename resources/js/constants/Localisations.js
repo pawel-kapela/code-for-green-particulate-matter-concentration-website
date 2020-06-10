@@ -16,6 +16,7 @@ const localisations = new LocalizedStrings({
         createdInformation: 'Stacja została stworzona przez uczniów Zespołu Szkół Politechnicznych im. Bohaterów Monte Cassino we Wrześni w ramach projektu Code for Green:',
         softwareAndWebsite: 'oprogramowanie czujnika, strona internetowa',
         informationSections: 'przygotowanie sekcji informacyjnych',
+        case: 'obudowa czujnika',
 
         records: 'Rekordy',
         chart: 'Wykres',
@@ -57,6 +58,7 @@ const localisations = new LocalizedStrings({
         alertDailyLevel: 'dobowy poziom alarmowania',
         highLevel: 'wysoki poziom',
         averageYearlyAllowedLevel: 'średni roczny poziom dopuszczalny',
+        sources: 'Źródła',
 
         howDoesItWorkTitle: 'Jak to działa?',
         howDoesItWorkDescription: 'W naszym projekcie chcąc sprawdzić jakość powietrza w naszej okolicy użyliśmy czujnika pyłu zawieszonego Plantower PMS5003. Dane z niego przez interfejs UART trafiają do prostego, działającego w oparciu o system Linux minikomputera Raspberry Pi 3 B+, który\xa0dodaje je do bazy danych. Sam czujnik działa w oparciu o obserwację rozproszenia światła laserowego na cząstkach pyłu zawieszonego w powietrzu, dzięki\xa0czemu\xa0wykrywa:',
@@ -79,6 +81,7 @@ const localisations = new LocalizedStrings({
         createdInformation: 'The station was created by students of the Zespół Szkół Politechnicznych im. Bohaterów Monte Cassino (Heroes of Monte Cassino Polytechnic School Complex) in Września as part of the Code for Green project:',
         softwareAndWebsite: "sensor's software, website",
         informationSections: 'preparation of the information sections',
+        case: "sensor's case",
 
         records: 'Records',
         chart: 'Chart',
@@ -120,6 +123,7 @@ const localisations = new LocalizedStrings({
         alertDailyLevel: 'daily alert level',
         highLevel: 'high level',
         averageYearlyAllowedLevel: 'average yearly allowed level',
+        sources: 'Sources',
 
         howDoesItWorkTitle: 'How does it work?',
         howDoesItWorkDescription: 'In our project, to check the air quality in our area, we used the Plantower PMS5003 particulate matter sensor. The data from it goes through the UART interface to a simple Linux-based Raspberry Pi 3 B+ minicomputer, which adds it to the database. The sensor itself works by observing the scattering of laser light on airborne dust particles and\xa0thus detects:',

@@ -123,6 +123,22 @@ function NormsPage({theme}) {
                         </tr>
                     </tbody>
                 </table>
+            
+                <p>{localisations.sources}:</p>
+
+                <ul>
+                    <li>
+                        <a href="http://www.gios.gov.pl/pl/aktualnosci/294-normy-dla-pylow-drobnych-w-polsce" style={{color: 'inherit'}}>
+                            Główny Inspektorat Ochrony Środowiska: Normy dla pyłów drobnych w Polsce
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://dragonmask.pl/blog/normy-dla-pylow-pm2-5-i-pm10-w-polsce-i-w-europie" style={{color: 'inherit'}}>
+                            Dragon. Maski antysmogowe, maski przeciwpyłowe, maski do biegania: Normy dla pyłów PM2.5 i PM10
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     );
