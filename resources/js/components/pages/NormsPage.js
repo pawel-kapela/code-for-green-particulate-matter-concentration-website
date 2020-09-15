@@ -34,7 +34,7 @@ function NormsPage({theme}) {
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope='row'><Flag name='PL' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.pl}</th>
+                            <th scope='row'><Flag name='PL' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.pl}</th>
                             <td>50 µg/m³ (PM10)</td>
                             <td>200 µg/m³ (PM10)</td>
                             <td>300 µg/m³ (PM10)</td>
@@ -42,7 +42,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                        <th scope='row'><Flag name='EU' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.eu}</th>
+                        <th scope='row'><Flag name='EU' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.eu}</th>
                             <td>50 µg/m³ (PM10)</td>
                             <td></td>
                             <td></td>
@@ -50,7 +50,7 @@ function NormsPage({theme}) {
                             <td>25 µg/m³ (PM10&PM2.5)</td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='CZ' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.cz}</th>
+                            <th scope='row'><Flag name='CZ' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.cz}</th>
                             <td></td>
                             <td></td>
                             <td>100 µg/m³</td>
@@ -58,7 +58,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='SK' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.sk}</th>
+                            <th scope='row'><Flag name='SK' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.sk}</th>
                             <td></td>
                             <td>100 µg/m³</td>
                             <td>150 µg/m³</td>
@@ -66,7 +66,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='HU' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.hu}</th>
+                            <th scope='row'><Flag name='HU' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.hu}</th>
                             <td></td>
                             <td>75 µg/m³</td>
                             <td>100 µg/m³</td>
@@ -74,7 +74,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='FR' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.fr}</th>
+                            <th scope='row'><Flag name='FR' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.fr}</th>
                             <td></td>
                             <td></td>
                             <td>80 µg/m³</td>
@@ -82,7 +82,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='CH' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.ch}</th>
+                            <th scope='row'><Flag name='CH' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.ch}</th>
                             <td></td>
                             <td>75 µg/m³</td>
                             <td>100 µg/m³</td>
@@ -90,7 +90,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='IT' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.it}</th>
+                            <th scope='row'><Flag name='IT' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.it}</th>
                             <td></td>
                             <td>50-75 µg/m³</td>
                             <td>75 µg/m³</td>
@@ -98,7 +98,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='BE' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.be}</th>
+                            <th scope='row'><Flag name='BE' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.be}</th>
                             <td></td>
                             <td></td>
                             <td>70 µg/m³</td>
@@ -106,7 +106,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='GB' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.gb}</th>
+                            <th scope='row'><Flag name='GB' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.gb}</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -114,7 +114,7 @@ function NormsPage({theme}) {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope='row'><Flag name='FI' format='png' basePath='/img/flags' pngSize={32} shiny={false}/> {localisations.fi}</th>
+                            <th scope='row'><Flag name='FI' format='png' basePath='img/flags' pngSize={32} shiny={false}/> {localisations.fi}</th>
                             <td></td>
                             <td>50 µg/m³</td>
                             <td></td>
