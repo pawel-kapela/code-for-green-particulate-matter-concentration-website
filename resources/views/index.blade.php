@@ -3,6 +3,8 @@
     <head>
         <title>Code for Green</title>
 
+        <base href="/powietrze/">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

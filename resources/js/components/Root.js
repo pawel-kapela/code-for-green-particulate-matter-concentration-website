@@ -29,8 +29,8 @@ class Root extends Component {
 
     render() {
         return (
-            <Router>
-                <div className="d-flex">
+            <Router basename='/powietrze'>
+                <div className='d-flex'>
                     <Sidebar
                         menuProps={{
                             customBurgerIcon: false,

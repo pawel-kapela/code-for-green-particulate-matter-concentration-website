@@ -4,7 +4,7 @@ import localisations from '../../constants/Localisations';
 
 function ParticulateMatterInformationPage() {
     return (
-        <div className='container mt-5 mb-5'>
+        <div className='container mx-sm-2 my-sm-5'>
             <div className='row'>
                 <h1 className='font-weight-bold'>{localisations.particulateMatterInformationTitle}</h1>
 

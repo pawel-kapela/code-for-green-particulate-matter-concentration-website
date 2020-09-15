@@ -12,7 +12,7 @@ function Header({toggleSidebar}) {
                 <h5 className='font-weight-bold'>{localisations.schoolName}</h5>
             </div>
 
-            <img src='/img/logo2.png' alt='Code for Green logo' className='mh-25 ml-auto mr-3'/>
+            <img src='img/logo2.png' alt='Code for Green logo' className='mh-25 ml-auto mr-3'/>
         </div>
     );
 }

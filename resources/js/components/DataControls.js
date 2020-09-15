@@ -55,7 +55,7 @@ class DataControls extends Component {
                 </button>
 
                 <div className='d-flex flex-column align-items-center justify-content-center'>
-                    <div className='d-flex pb-3'>
+                    <div className='d-flex flex-sm-column flex-row pb-3'>
                         <div className='d-flex flex-column align-items-center'>
                             <label>{localisations.start}</label>
                             <DatePicker selected={datePointer} dateFormat='dd/MM/yyyy' maxDate={(timespan == 1) ? moment().startOf('d').toDate() : moment().startOf('d').subtract(timespan, 'd').toDate()} onChange={(date, event) => this.props.setDatePointer(date)}/>

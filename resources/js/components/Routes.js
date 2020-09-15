@@ -20,6 +20,8 @@ function Routes({closeSidebar}) {
     return (
         <Switch>
             <Route path={paths.DataPage} component={DataPage}/>
+            <Route path={paths.DataPageRecords} component={DataPage}/>
+            <Route path={paths.DataPageChart} component={DataPage}/>
             <Route path={paths.ParticulateMatterInformation} component={ParticulateMatterInformationPage}/>
             <Route path={paths.NormsPage} component={NormsPage}/>
             <Route path={paths.HowDoesItWork} component={HowDoesItWorkPage}/>
