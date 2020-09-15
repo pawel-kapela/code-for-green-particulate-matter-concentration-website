@@ -21,7 +21,7 @@ class HowDoesItWorkPage extends Component {
                     </div>
 
                     <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                        <img src='/img/scheme.png'/>
+                        <img src='img/scheme.png'/>
                     </div>
                 </div>
             </div>
