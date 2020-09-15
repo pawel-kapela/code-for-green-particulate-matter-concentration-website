@@ -23,7 +23,7 @@ function HomePage() {
                 </div>
 
                 <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                    <img src='/img/logo.png' className='mh-75'/>
+                    <img src='img/logo.png' className='mh-75'/>
                 </div>
             </div>
         </div>
