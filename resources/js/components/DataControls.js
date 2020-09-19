@@ -67,25 +67,19 @@ class DataControls extends Component {
                     </div>
 
                     <div className='d-flex'>
-                        <div className='radio mr-3'>
-                            <label className='d-flex justify-content-center'>
-                                <input className='mr-2' type='radio' value={1} checked={timespan == 1} onChange={(changeEvent) => this.handleTimespanChange(changeEvent.target.value)}/>
-                                {localisations.day}
-                            </label>
+                        <div className='form-check form-check-inline'>
+                            <input className='form-check-input' type='radio' value={1} checked={timespan == 1} onChange={(changeEvent) => this.handleTimespanChange(changeEvent.target.value)}/>
+                            <label className='form-check-label'>{localisations.day}</label>
                         </div>
     
-                        <div className='radio mr-3'>
-                            <label className='d-flex justify-content-center'>
-                                <input className='mr-2' type='radio' value={7} checked={this.props.timespan == 7} onChange={(changeEvent) => this.handleTimespanChange(changeEvent.target.value)}/>
-                                {localisations.week}
-                            </label>
+                        <div className='form-check form-check-inline'>
+                            <input className='form-check-input' type='radio' value={7} checked={this.props.timespan == 7} onChange={(changeEvent) => this.handleTimespanChange(changeEvent.target.value)}/>
+                            <label className='form-check-label'>{localisations.week}</label>
                         </div>
     
-                        <div className='radio'>
-                            <label className='d-flex justify-content-center'>
-                                <input className='mr-2' type='radio' value={31} checked={this.props.timespan == 31} onChange={(changeEvent) => this.handleTimespanChange(changeEvent.target.value)}/>
-                                {localisations.month}
-                            </label>
+                        <div className='form-check form-check-inline'>
+                                <input className='form-check-input' type='radio' value={31} checked={this.props.timespan == 31} onChange={(changeEvent) => this.handleTimespanChange(changeEvent.target.value)}/>
+                                <label className='form-check-label'>{localisations.month}</label>
                         </div>
                     </div>
                 </div>
