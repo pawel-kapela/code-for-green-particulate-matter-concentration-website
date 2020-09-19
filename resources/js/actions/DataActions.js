@@ -34,7 +34,7 @@ export const switchToThePreviousTimespan = () => dispatch => {
 export const fetch = () => dispatch => {
     const { datePointer, timespan } = store.getState().data;
 
-    axios.get(`/api/measurements_from_timespan?from=${moment(datePointer).format('YYYY-MM-DD')}&to=${moment(datePointer).startOf('d').add(timespan, 'd').format('YYYY-MM-DD')}`)
+    axios.get(`//${window.location.hostname}/powietrze/api/measurements_from_timespan?from=${moment(datePointer).format('YYYY-MM-DD')}&to=${moment(datePointer).startOf('d').add(timespan, 'd').format('YYYY-MM-DD')}`)
         .then(response => {
             dispatch({
                 type: types.FETCH,
