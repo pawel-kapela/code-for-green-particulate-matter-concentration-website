@@ -18,7 +18,7 @@ function HomePage() {
                     <ul>
                         <li><span className='text-weight-bold'>Paweł Kapela</span> - {localisations.softwareAndWebsite}</li>
                         <li><span className='text-weight-bold'>Wiktor Makowski</span> - {localisations.informationSections}</li>
-                        <li><span className="text-weight-bold">Mateusz Lech</span> - {localisations.case}</li>
+                        <li><span className="text-weight-bold">Mateusz Lech, Grzegorz Ordan</span> - {localisations.case}</li>
                     </ul>
                 </div>
 
