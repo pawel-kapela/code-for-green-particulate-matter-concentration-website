@@ -16,7 +16,7 @@ Strona zawiera w sobie logikę odpowiadającą za pobieranie danych z bazy danyc
 
 ### Jak zainstalować tę stronę na naszym serwerze?
 
-Najpierw musimy zadbać o źródło danych. Należy zatem najpierw skonfigurować [stację pomiarową](https://github.com/pawel-kapela/code-for-green-particulate-matter-sensor). (tu będzie link do osobnego projektu)
+Najpierw musimy zadbać o źródło danych. Należy zatem najpierw skonfigurować [stację pomiarową](https://github.com/pawel-kapela/code-for-green-particulate-matter-sensor).
 
 Instalacja strony:
 - Sklonuj repozytorium używając polecenia ```git clone <adres tego repozytorium>```
