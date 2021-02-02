@@ -22,6 +22,18 @@ Instalacja strony:
 - Sklonuj repozytorium używając polecenia ```git clone <adres tego repozytorium>```
 - Zainstaluj menedżer pakietów Composer i zainstaluj zależności PHP używając polecenia ```composer install``` w katalogu projektu
 - Zainstaluj menedżer pakietów NPM i zainstaluj zależności JavaScript używając polecenia ```npm install``` w katalogu projektu
+- Skonfiguruj adres URl strony, katalog, w którym się znajduje oraz dane potrzebne do połączenia się z bazą danych (tabela z pomiarami musi nazywać się ```measurements```):
+```
+APP_URL="<adres_strony>"
+APP_DIR="<nazwa_podstony/katalogu>"
+
+DB_CONNECTION="mysql"
+DB_HOST="<serwer_z_bazą_danych>"
+DB_PORT=3306
+DB_DATABASE="<nazwa_bazy_danych>"
+DB_USERNAME="<nazwa_użytkownika>"
+DB_PASSWORD="<hasło>"
+```
 - Otwórz plik znajdujący się pod ścieżką ```resources/js/components/Root.js``` i dostosuj atrybut ```basename``` w znaczniku ```Router``` w 32 linijce tak, aby odpowiadał położeniu strony na serwerze (np. codeforgreen.zspwrzesnia.pl**/powietrze** -> <Router **baseline="/powietrze"**>)
 - Przygotuj stronę do wdrożenia poprzez "skompilowanie" jej używając polecenia ```npm run prod```
 - Wrzuć zawartość całego katalogu projektu do wybranego katalogu na serwerze używając klienta FTP (np. FileZilla)
