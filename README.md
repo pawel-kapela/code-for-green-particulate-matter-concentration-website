@@ -38,5 +38,5 @@ DB_PASSWORD="<hasło>"
 - Przygotuj stronę do wdrożenia poprzez "skompilowanie" jej używając polecenia ```npm run prod```
 - Wrzuć zawartość całego katalogu projektu do wybranego katalogu na serwerze używając klienta FTP (np. FileZilla)
 
-Gratulacje! :) Właśnie udało ci się umieścić stronę na serwerze.
+Gratulacje! :) Właśnie udało Ci się umieścić stronę na serwerze.
 Jeżeli masz wątpliwości, bądź coś nie działa, skontaktuj się ze mną poprzez e-mail: pawel.kapela@protonmail.com
