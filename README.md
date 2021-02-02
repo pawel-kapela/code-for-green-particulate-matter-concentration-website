@@ -34,7 +34,7 @@ DB_DATABASE="<nazwa_bazy_danych>"
 DB_USERNAME="<nazwa_użytkownika>"
 DB_PASSWORD="<hasło>"
 ```
-- Otwórz plik znajdujący się pod ścieżką ```resources/js/components/Root.js``` i dostosuj atrybut ```basename``` w znaczniku ```Router``` w 32 linijce tak, aby odpowiadał położeniu strony na serwerze (np. codeforgreen.zspwrzesnia.pl**/powietrze** -> <Router **baseline="/powietrze"**>)
+- Otwórz plik znajdujący się pod ścieżką ```resources/js/components/Root.js``` i dostosuj atrybut ```basename``` w znaczniku ```Router``` w 32 linijce tak, aby odpowiadał położeniu strony na serwerze (np. codeforgreen.zspwrzesnia.pl/powietrze -> <Router **baseline="/powietrze"**>)
 - Przygotuj stronę do wdrożenia poprzez "skompilowanie" jej używając polecenia ```npm run prod```
 - Wrzuć zawartość całego katalogu projektu do wybranego katalogu na serwerze używając klienta FTP (np. FileZilla)
 
