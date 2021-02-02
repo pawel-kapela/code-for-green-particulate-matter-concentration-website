@@ -18,3 +18,13 @@ Strona zawiera w sobie logikę odpowiadającą za pobieranie danych z bazy danyc
 
 Najpierw musimy zadbać o źródło danych. Należy zatem najpierw skonfigurować stację pomiarową. (tu będzie link do osobnego projektu)
 
+Instalacja strony:
+- Sklonuj repozytorium używając polecenia ```git clone <adres tego repozytorium>```
+- Zainstaluj menedżer pakietów Composer i zainstaluj zależności PHP używając polecenia ```composer install``` w katalogu projektu
+- Zainstaluj menedżer pakietów NPM i zainstaluj zależności JavaScript używając polecenia ```npm install``` w katalogu projektu
+- Otwórz plik znajdujący się pod ścieżką ```resources/js/components/Root.js``` i dostosuj atrybut ```basename``` w znaczniku ```Router``` w 32 linijce tak, aby odpowiadał położeniu strony na serwerze (np. codeforgreen.zspwrzesnia.pl**/powietrze** -> <Router **baseline="/powietrze"**>)
+- Przygotuj stronę do wdrożenia poprzez "skompilowanie" jej używając polecenia ```npm run prod```
+- Wrzuć zawartość całego katalogu projektu do wybranego katalogu na serwerze używając klienta FTP (np. FileZilla)
+
+Gratulacje! :) Właśnie udało ci się umieścić stronę na serwerze.
+Jeżeli masz wątpliwości, bądź coś nie działa, skontaktuj się ze mną poprzez e-mail: pawel.kapela@protonmail.com
